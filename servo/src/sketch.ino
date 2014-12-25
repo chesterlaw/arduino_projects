@@ -6,8 +6,8 @@ Servo servo1;  // servo control object
 int sensorPin = 0; // The potentiometer is connected to analog pin 0
 const int buzzerPin = 10; // designate buzzer pin
 const int buttonPin = 8;  // pushbutton pin
-boolean currentState = LOW;
-boolean lastState = LOW;
+boolean currentState = HIGH;
+boolean lastState = HIGH;
 
 void setup() {
   servo1.attach(9); //attach servo1 object to diginal pin 9
